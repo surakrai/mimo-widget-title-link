@@ -8,13 +8,6 @@
  * Author URI:  https://www.facebook.com/surakraisam
  * Donate link: -
  * License:     GPLv2
- * Text Domain: mwot
- * Domain Path: /languages
- *
- * @link -
- *
- * @package MWOT
- * @version 0.9.1
  */
 
 /**

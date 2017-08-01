@@ -69,7 +69,7 @@ if ( ! class_exists( 'MIMO_Widget_Title_Link' ) ) {
 
 		public function widget_display($title, $instance, $id_base) {
 
-		  if ( isset($instance['link']) ){
+		  if ( !empty($instance['link']) ){
 		    $title = "<a href='". $instance['link'] ."'>"  . $title . "</a>";
 		  }
 		  return $title;
